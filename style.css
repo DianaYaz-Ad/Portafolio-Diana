@@ -10,3 +10,15 @@ propiedad: valor important;
     justify-content: start;
     align-items: center;
 }
+/* control f --> buscar*/
+
+#proyecto-1 {
+    background-image: url('Clon-Google.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/*el text shadow lo puedes modificar con las herramientas de google */
+.text-shadow-1 {
+    text-shadow: 1px -1px 8px rgba(0, 0, 0, 1);
+}
