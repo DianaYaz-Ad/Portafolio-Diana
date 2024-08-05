@@ -5,19 +5,45 @@ propiedad: valor important;
 */
 
 #presentacion {
-    min-height:  86vh;
+    min-height: 89vh;
     display: flex;
     justify-content: start;
     align-items: center;
+    background-image: url("assets/opaco.avif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  
+
 }
+
+
+#letras {
+    font-weight: 500;
+
+}
+
 /* control f --> buscar*/
 
-#proyecto-1 {
-    background-image: url('Clon-Google.png');
+.proyecto {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
+
+#proyecto-1 {
+    background-image: url("assets/Clon-Google.png")
+}
+
+#proyecto-2 {
+    background-image: url('assets/Coquette.png');
+}
+
+#proyecto-3 {
+    background-image: url('assets/Presentación.png');
+}
+
+
 /*el text shadow lo puedes modificar con las herramientas de google */
 .text-shadow-1 {
     text-shadow: 1px -1px 8px rgba(0, 0, 0, 1);

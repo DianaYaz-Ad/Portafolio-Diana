@@ -14,26 +14,26 @@
 <body>
 
     <header>
-        <nav class="navbar" style="background-color: #e3f2fd;" class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar fixed-top" style="background-color: #e3f2fd;" class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container"> <!-- el data-bs-theme="dark" hace las letras blancas -->
-                <a class="navbar-brand" href="#">Diana Mejia</a>
+                <a class="navbar-brand" href="#presentacion">Diana Mejia</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
-                        <a class="nav-link" aria-current="page" href="#">Habilidades</a>
+                        <a class="nav-link" aria-current="page" href="#habilidades">Habilidades</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Proyectos</a>
+                            <a class="nav-link" href="#proyectos">Proyectos</a>
                         </li>
                         <!-- el active lo hace más blanco -->
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Testimonios</a>
+                            <a class="nav-link" href="#testimonios">Testimonios</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contacto</a>
+                            <a class="nav-link" href="#contacto">Contacto</a>
                         </li>
 
                     </ul>
@@ -42,33 +42,37 @@
         </nav>
     </header>
 
-    <main>
+    <main class="pb-5" >
 
-        <section id="presentacion" class="container col-xxl-8 px-4 py-5">
+        <section id="presentacion" class="container-fluid" > 
             <!-- Tambien se puede poner de esta forma y modificaar directamente en boostrap 
              class="container col-xxl-8 px-4 py-5 d-flex justify-content-start align-items-center"> -->
-            <div class="row flex-lg-row-reverse align-items-center g-5 py-5" bis_skin_checked="1">
-                <div class="col-10 col-sm-8 col-lg-6" bis_skin_checked="1">
-                    <img src="https://www.enter.co/wp-content/uploads/2021/08/4884785-768x432.jpg"
-                        class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="500" height="500"
-                        loading="lazy">
-                </div>
-                <div class="col-lg-6" bis_skin_checked="1"> <!-- shadow p-3 rounded border  -->
-                    <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Diana Mejia
-                    </h1>
-                    <p class="lead">Administradora bla bla bla Administradora bla bla bla A dministradora bla bla bla
-                        Administradora bla bla bla Administradora bla bla bla</p>
-                    <div class="d-grid gap-2 d-md-flex justify-content-md-start" bis_skin_checked="1">
-                        <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Contáctame</button>
-                        <button type="button" class="btn btn-outline-secondary btn-lg px-4">dianauyat@gmail.com</button>
+            <div class="container col-xxl-8 px-4 py-5 d-flex justify-content-start align-items-center " >
+                <div class="row flex-lg-row-reverse align-items-center g-5 py-5" bis_skin_checked="1">
+                    <div class="col-10 col-sm-8 col-lg-6" bis_skin_checked="1">
+                        <img src="https://www.enter.co/wp-content/uploads/2021/08/4884785-768x432.jpg"
+                            class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="500" height="500"
+                            loading="lazy">
+                    </div>
+                    <div class="col-lg-6" bis_skin_checked="1"> <!-- shadow p-3 rounded border  -->
+                        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Diana Mejia
+                        </h1>
+                        <p class="lead" id="letras">Administradora bla bla bla Administradora bla bla bla A dministradora bla bla
+                            bla
+                            Administradora bla bla bla Administradora bla bla bla</p>
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-start" bis_skin_checked="1">
+                            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Contáctame</button>
+                            <button type="button"
+                                class="btn btn-secondary btn-lg px-4">dianauyat@gmail.com</button>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="habilidades" class="container px-4 py-5">
+        <section id="habilidades" class="container px-4 py-5 ">
             <h2 class="pb-2 border-bottom">Habilidades</h2>
-            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3" bis_skin_checked="1">
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3 " bis_skin_checked="1">
                 <div class="feature col" bis_skin_checked="1">
                     <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-warning bg-gradient fs-2 px-3 py-2 rounded m-2"
                         bis_skin_checked="1">
@@ -89,7 +93,7 @@
                         <i class="bi bi-bag-heart"></i>
                     </div>
                     <h3 class="fs-2 text-body-emphasis">Servicio</h3>
-                    <p>Al conquistar corazones ser mejor que todos es mi pasión</p>
+                    <p>Conquistar corazones es mi principal pasión</p>
 
                     </a>
                 </div>
@@ -112,13 +116,52 @@
 
             <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5" bis_skin_checked="1">
                 <div class="col">
-                    <div id="proyecto-1" class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                    <div id="proyecto-1"
+                        class="proyecto card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
 
                         <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1" bis_skin_checked="1">
                             <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Clon de Google</h3>
                             <ul class="d-flex list-unstyled mt-auto">
                                 <li class="mx-auto">
-                                    <a class="link-dark" href="https://clon-google-pi-one.vercel.app/" target="_blank" rel="noopener noreferrer">
+                                    <a class="link_dark" href="https://clon-google-pi-one.vercel.app/" target="_blank"
+                                        rel="noopener noreferrer">
+                                        DA CLICK AQUI
+                                    </a>
+
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div id="proyecto-2"
+                        class="proyecto card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1" bis_skin_checked="1">
+                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Tienda coquette</h3>
+                            <ul class="d-flex list-unstyled mt-auto">
+                                <li class="mx-auto">
+                                    <a class="link_dark" href="http://" target="_blank" rel="noopener noreferrer">
+                                        DA CLICK AQUI
+                                    </a>
+
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div id="proyecto-3"
+                        class="proyecto card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1" bis_skin_checked="1">
+                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Presentación</h3>
+                            <ul class="d-flex list-unstyled mt-auto">
+                                <li class="mx-auto">
+                                    <a class="link_dark" href="https://portafolio-diana-dun.vercel.app/" target="_blank"
+                                        rel="noopener noreferrer">
                                         DA CLICK AQUI
                                     </a>
 
@@ -134,7 +177,10 @@
         </section>
 
         <section id="testimonios">
-            <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel" bis_skin_checked="1">
+            <h2 class="container text-center text-primary">Referencias</h2>
+            <div id="myCarousel" data-bs-theme="dark" class="carousel slide mb-6" data-bs-ride="carousel"
+                bis_skin_checked="1">
+                <!-- Indicadores son los puntitos encima que me permiten navegar por los elementos -->
                 <div class="carousel-indicators" bis_skin_checked="1">
                     <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class=""
                         aria-label="Slide 1"></button>
@@ -143,48 +189,44 @@
                     <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"
                         class="active" aria-current="true"></button>
                 </div>
+                <!-- Contenido del carousel -->
+                <!-- El active muestra el primero en mostrar -->
                 <div class="carousel-inner" bis_skin_checked="1">
-                    <div class="carousel-item" bis_skin_checked="1">
-                        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-                            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-                            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-                        </svg>
-                        <div class="container" bis_skin_checked="1">
-                            <div class="carousel-caption text-start" bis_skin_checked="1">
-                                <h1>Example headline.</h1>
-                                <p class="opacity-75">Some representative placeholder content for the first slide of the
-                                    carousel.</p>
-                                <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item" bis_skin_checked="1">
-                        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-                            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-                            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-                        </svg>
-                        <div class="container" bis_skin_checked="1">
-                            <div class="carousel-caption" bis_skin_checked="1">
-                                <h1>Another example headline.</h1>
-                                <p>Some representative placeholder content for the second slide of the carousel.</p>
-                                <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
-                            </div>
-                        </div>
-                    </div>
+
                     <div class="carousel-item active" bis_skin_checked="1">
-                        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-                            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-                            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-                        </svg>
-                        <div class="container" bis_skin_checked="1">
-                            <div class="carousel-caption text-end" bis_skin_checked="1">
-                                <h1>One more for good measure.</h1>
-                                <p>Some representative placeholder content for the third slide of this carousel.</p>
-                                <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
-                            </div>
-                        </div>
+                        <article class="container py-5 text text-center px-5">
+                            <img class="rounded-5" src="assets/henry-fayol.png" height="300" alt="">
+                            <h3 class="my-3">Henry Fayol</h3>
+                            <p class="px-5">Diana Mejía encarna mis principios administrativos con notable destreza. Su
+                                competencia en planificación, organización, dirección y control es excepcional. Diana
+                                mejora significativamente la eficiencia y efectividad en su lugar de trabajo, aplicando
+                                con precisión los conceptos fundamentales de la administración moderna y llevando su
+                                organización hacia un éxito sostenido.</p>
+                        </article>
                     </div>
+
+                    <div class="carousel-item" bis_skin_checked="1">
+                        <article class="container py-5 text text-center px-5">
+                            <img class="rounded-5" src="assets/Liz.jpg" height="300" alt="">
+                            <h3 class="my-3">Litzi Sanchez</h3>
+                            <p class="px-5">Diana ha demostrado ser una alumna responsable y muy creativa durante el
+                                curso. Su interes por aprender la motiva a mejorar con cada proyecto que realiza.</p>
+                        </article>
+                    </div>
+
+                    <div class="carousel-item" bis_skin_checked="1">
+                        <article class="container py-5 text text-center px-5">
+                            <img class="rounded-5" src="assets/slim_4.jpg" height="300" alt="">
+                            <h3 class="my-3">Carlos Slim</h3>
+                            <p class="px-5">Diana Mejía es una líder excepcional en el ámbito empresarial. Su capacidad
+                                para innovar y mejorar procesos es notable. Su enfoque estratégico y su compromiso con
+                                la excelencia han transformado su organización, impulsando su crecimiento y éxito. Diana
+                                es una profesional cuya visión y habilidades son verdaderamente admirables.</p>
+                        </article>
+                    </div>
+
                 </div>
+                <!-- Botones que son las flechas para pasar de diapositiva (slide) -->
                 <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
@@ -200,16 +242,28 @@
 
     </main>
 
-    <footer class="container">
-        <div class="py-3 my-4">
+    <footer id="contacto" class="container-fluid" style="background-color: #e3f2fd;">
+        <div class="py-3">
+            <div class="text-center mt-2"> 
+                <i class="bi bi-balloon-heart-fill text-danger fs-3"></i>
+            </div>
+            <h4 class="text-center mb-2" >Que les corten la cabeza</h4>
             <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+                <li class="nav-item"><a href="https://www.instagram.com/dianamejiayat/" target="_blank" class="nav-link px-2 text-body-secondary">
+                    <i class="bi bi-instagram fs-3"></i>
+                </a>
+            </li>
+            <li class="nav-item"><a href="https://www.linkedin.com/in/diana-mejia-jacinto-1a104927a/" target="_blank" class="nav-link px-2 text-body-secondary">
+                <i class="bi bi-linkedin fs-3 "></i>
+            </a>
+        </li>
+        <li class="nav-item"><a href="https://www.facebook.com/profile.php?id=100004641248303" target="_blank" class="nav-link px-2 text-body-secondary">
+            <i class="bi bi-facebook fs-3 "></i>
+        </a>
+    </li>
+
             </ul>
-            <p class="text-center text-body-secondary">© 2024 Company, Inc</p>
+            <p class="text-center text-body-secondary">© 2024 Diana, TECHNOLOCHICAS</p>
         </div>
     </footer>
 
