@@ -48,3 +48,13 @@ propiedad: valor important;
 .text-shadow-1 {
     text-shadow: 1px -1px 8px rgba(0, 0, 0, 1);
 }
+
+
+
+
+.caveat {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 422;
+    font-style: normal;
+  }

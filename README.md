@@ -19,7 +19,7 @@ La página es responsiva (adaptable a diferentes tamaños de pantalla) e incluye
 
 ![Pie de página](/Portafolio/assets/5.png)
 
-## Tecnologías
+## Tecnologías 
 * HTML
 * CSS
 * Bootstrap
