@@ -9,7 +9,7 @@ La página es responsiva (adaptable a diferentes tamaños de pantalla) e incluye
 [Proyecto Desplegado (https://portafolio-diana-dun.vercel.app/)](https://portafolio-diana-dun.vercel.app/)
 
 ## Secciones de mi sitio
-![Presentación](https://github.com/DianaYaz-Ad/Portafolio-Diana/raw/main/Portafolio/1.png)
+![Presentación](https://github.com/DianaYaz-Ad/Portafolio-Diana/blob/main/Portafolio/1.png)
 
 ![Habilidades](https://github.com/DianaYaz-Ad/Portafolio-Diana/raw/main/Portafolio/2.png)
 
