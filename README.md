@@ -9,15 +9,15 @@ La página es responsiva (adaptable a diferentes tamaños de pantalla) e incluye
 [Proyecto Desplegado (https://portafolio-diana-dun.vercel.app/)](https://portafolio-diana-dun.vercel.app/)
 
 ## Secciones de mi sitio
-![Presentación](/Portafolio/1.png)
+![Presentación](1.png)
 
-![Habilidades](/Portafolio/2.png)
+![Habilidades](2.png)
 
-![Portafolio](/Portafolio/3.png)
+![Portafolio](3.png)
 
-![Referencias](/Portafolio/4.png)
+![Referencias](4.png)
 
-![Pie de página](/Portafolio/5.png)
+![Pie de página](5.png)
 
 ## Tecnologías 
 * HTML
